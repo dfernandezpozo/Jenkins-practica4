@@ -1,5 +1,6 @@
 import unittest
-from data_processor import process_data
+from app.data_processor import process_data
+
 
 class TestProcessor(unittest.TestCase):
     def test_process_data(self):
